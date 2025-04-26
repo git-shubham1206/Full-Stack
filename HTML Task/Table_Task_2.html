@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form In Table Tag</title>
+</head>
+<body>
+	
+
+	<table width="100%">
+		<tr>
+		<td><h2>Admission Form</h2></td>
+	</tr>
+		<tr>
+			<td>Student Name*</td>
+			<td>Student Mobile*</td>
+			<td>Student Email*</td>
+			<td>Student Address*</td>
+		</tr>
+		<tr>
+			<td><input type="text" name="First" placeholder="Shubham Gunjal" style="height: 30px; width: 300px;"></td>
+			<td><input type="number" name="mobile" placeholder="999999999"style="height: 30px; width: 300px;"></td>
+			<td><input type="email" name="email" placeholder="shubhu@gmail.com"style="height: 30px;width: 300px;"></td>
+			<td><input type="text" name="Address" placeholder="At post xyz TAL.xyz"style="height: 30px; width:300px"></td>
+		</tr>
+		<tr>
+			<td>Student Parent Name*</td>
+			<td>Student Parent Mobile*</td>
+			<td>Student Gender*</td>
+			<td>Student DOB*</td>
+		</tr>
+		<tr>
+			<td><input type="text" name="parentname" style="height: 30px; width: 300px;"></td>
+			<td><input type="number" name="parentmobile" style="height: 30px; width: 300px;"></td>
+			<td><select name="gender" style="width: 300px;">
+                    <option>Male</option>
+                    <option>Female</option>
+                    <option>Other</option>
+                </select></td>
+			<td><input type="date" name="dob" style="height: 30px; width: 300px;"></td>
+		</tr>
+		<tr>
+			<td>Student Photo*</td>
+			<td>Adhar Image*</td>
+			<td>PAN/ID Image*</td>
+			<td>Placement*</td>
+		</tr>
+		<tr>
+			<td><input type="file" name="photo" placeholder="xyz.jpg" style="height: 30px; width: 300px;"></td>
+			<td><input type="file" name="aphoto" placeholder="xyz.jpg"style="height: 30px; width: 300px;"style="height: 30px; width: 300px;"></td>
+			<td><input type="file" name="pan" placeholder="xyz.jpg"style="height: 30px; width: 300px;"></td>
+			<td><select name="place" style="width: 300px;">
+                    <option>Yes</option>
+                    <option>No</option>
+                </select></td>
+		</tr>
+		<tr>
+			<td>Training Type*</td>
+			<td>Reference By</td>
+			<td>Admission Date</td>
+		</tr>
+		<tr>
+			<td><select name="traintype" style="width: 300px;">
+                    <option>Industrial Training</option>
+                    <option>No</option>
+                </select></td>
+			<td><input type="text" name="reference"style="height: 30px; width: 300px;"></td>
+			<td><input type="date" name="Admission"style="height: 30px; width: 300px;"></td>
+		</tr>
+		<tr>
+			<td>Note</td>
+		</tr>
+		<tr>
+			<td><input type="text" name="note"style="height: 30px; width: 300px;"></td>
+		</tr>
+		<tr>
+		<td><h1>Batch & Fee Setup</h1></td>
+	</tr>
+		<tr>
+			<td>Select Batch*</td>
+			<td>Installment*</td>
+			<td>Total Fee*</td>
+		</tr>
+		<tr>
+			<td ><select name="batch" style="width: 300px;">
+                    <option>Select Batch</option>
+                    <option>A1</option>
+                    <option>A2</option>
+                </select></td>
+			<td><select name="Installment"style="width: 300px;">
+                    <option>Select</option>
+                    <option>50%</option>
+                    <option>35%</option>
+                    <option>100%</option>
+                </select></td>
+			<td><input type="text" name="fee"style="width: 300px;"></td>
+		</tr>
+		<tr>
+			<td><input type="button" name="submit" value="CONFIRM ADMISSION"style="width: 300px;"></td>
+		</tr>
+	</table>
+</body>
+</html>

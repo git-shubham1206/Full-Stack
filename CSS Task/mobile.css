@@ -1,0 +1,55 @@
+
+p{
+	margin-bottom: 50px;
+}
+
+
+.box1{
+	height: 800px;
+	width: 33%;
+	background-color: red;
+	float: left;
+	color: whitesmoke;
+	font-size: 110px;
+	text-shadow:5px 10px 5px blue;
+}
+.box2{
+	height:770px;
+	width: 33%;
+	background-color: green;
+	float: left;
+	border-radius: 40px;
+	margin-top: 10px;
+	border: 7px solid black;
+	display: flex;
+	justify-content: center;
+
+}
+.box3{
+	height: 800px;
+	width: 33%;
+	background-color:blue;
+	float: left;
+}
+.battery{
+	height: 50px;
+	width: 15%;
+	background-color: beige;
+	float: right;
+	text-align: right;
+	margin-top: 5px;
+	margin-left: 10px;
+}
+.time{
+	height: 100px;
+	width: 60%;
+	background-color: yellow;
+	margin-top: 70px;
+    float: left;
+	text-align: center;
+	margin-top: 200px;
+	margin-right: 20px;
+	color: blue;
+	font-size: 30px;
+
+}

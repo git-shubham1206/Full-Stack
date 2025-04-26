@@ -1,0 +1,67 @@
+*
+{
+	padding: 0px;
+	margin: 0px;
+}
+
+.main{
+	height: 950px;
+	width: 100%;
+	background-color: darkred;
+}
+
+nav{
+	height: 50px;
+	width: 100%;
+	background-color: aqua;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.card{
+	height: 400px;
+	width: 300px;
+	border: 3px solid black;
+	margin-left: 50px;
+	margin-top: 40px;
+	float: left;
+}
+
+.but{
+	height: 100px;
+	width: 100%;
+	float: left;
+	color: whitesmoke;
+	justify-content: center;
+	display: flex;
+	align-items: center;
+}
+
+button{
+	height: 40px;
+	width: 50%;
+}
+
+@media (max-width:650px){
+	.main{
+		height: 950px;
+		width: 650px;
+		background-color: pink;
+	}
+
+	nav{
+		height: 40px;
+		width: 100%;
+		background-color: darkred;
+	}
+
+	.card{
+	height: 400px;
+	width: 200px;
+	border: 3px solid black;
+	margin-left: 50px;
+	margin-top: 40px;
+	float: left;
+}
+}

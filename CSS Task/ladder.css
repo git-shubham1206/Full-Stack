@@ -1,0 +1,89 @@
+body{
+	height: 780px;
+	width: 98%;
+	background-image: url(ladder.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+.mario{
+	height: 50px;
+	width: 5%;
+	background-image: url(mario1.jpg.jpg);
+    background-repeat: no-repeat;
+	background-size: 100% 100%;
+	position: relative;
+	animation-name: mario;
+	animation-duration: 5s;
+	animation-iteration-count:infinite;
+}
+@keyframes mario{
+	0%{
+		top:0px;
+	    left:0px;
+	}
+	5%{
+		top: 660px;
+		left: 0px;
+	}
+	10%{
+		top: 660px;
+		left: 7%; 
+	}
+	15%{
+		top: 580px;
+		left: 7%;
+	}
+	20%{
+		top: 580px;
+		left: 19%;
+	}
+	25%{
+		top:500px;
+		left: 19%;
+	}
+	30%{
+		top: 500px;
+		left: 31%;
+	}
+	35%{
+		top: 405px;
+		left: 31%;
+	}
+	40%{
+		top: 405px;
+		left: 44%;
+	}
+	45%{
+		top: 320px;
+		left: 44%;
+	}
+	50%{
+		top: 320px;
+		left: 56%;
+	}
+	55%{
+		top: 230px;
+		left: 56%;
+	}
+	60%{
+		top: 230px;
+		left: 68%;
+	}
+	65%{
+		top: 140px;
+		left: 68%;
+	}
+	70%{
+		top: 140px;
+		left: 81%;
+	}
+	75%{
+		top: 60px;
+		left: 81%;
+	}
+	80%{
+		top: 60px;
+		left: 100%;
+	}
+}
+

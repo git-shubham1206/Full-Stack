@@ -1,0 +1,192 @@
+.navbar{
+	height: 100px;
+	width: 100%;
+	background-color: aqua;
+}
+.home{
+	height: 50px;
+	width: 12.5%;
+    align-content: center;
+    text-align: center;
+	float: left;
+}
+.about{
+	height: 50px;
+	width: 12.5%;
+	align-content: center;
+    text-align: center;
+	float: left;
+}
+.contact{
+	height: 50px;
+	width: 12.5%;
+	align-content: center;
+    text-align: center;
+	float: left;
+}
+.gallery{
+	height: 50px;
+	width: 12.5%;
+	align-content: center;
+    text-align: center;
+	float: left;
+}
+.services{
+	height: 50px;
+	width: 12.5%;
+	align-content: center;
+    text-align: center;
+	float: left;
+}
+.info{
+	height: 50px;
+	width: 12.5%;
+	align-content: center;
+    text-align: center;
+	float: left;
+}
+.clients{
+	height: 50px;
+	width: 12.5%;
+	align-content: center;
+    text-align: center;
+	float: left;
+}
+.feedback{
+	height: 50px;
+	width: 12.5%;
+	align-content: center;
+    text-align: center;
+	float: left;
+}
+
+@media(max-width:1250px){
+	.navbar{
+		height: 100px;
+		width: 100%;
+		background-color: aqua;
+	}
+	.home{
+		height: 50px;
+		width: 12.5%;
+	}
+	.contact{
+		height: 50px;
+		width: 12.5%;
+	}
+	.gallery{
+		height: 50px;
+		width: 12.5%;
+	}
+	.services{
+		height: 50px;
+		width: 12.5%;
+	}
+	.info{
+		height: 50px;
+		width: 12.5%;
+	}
+	.clients{
+		height: 50px;
+		width: 12.5%;
+	}
+	.feedback{
+		height: 50px;
+		width: 12.5%;
+	}
+	.about{
+		height: 50px;
+		width: 12.5%;
+	}
+
+}
+
+@media(max-width:950px){
+	.navbar{
+		height: 300px;
+		width: 100%;
+		background-color: pink;
+	}
+	.home{
+		height: 50px;
+		width: 33.3%;
+	}
+	.contact{
+		height: 50px;
+		width: 33.3%;
+	}
+	.gallery{
+		height: 50px;
+		width: 33.3%;
+	}
+	.services{
+		height: 50px;
+		width: 33.3%;
+	}
+	.info{
+		height: 50px;
+		width: 33.3%;
+		margin-top: 40px;
+	}
+	.clients{
+		height: 50px;
+		width: 33.3%;
+		margin-top: 40px;
+	}
+	.feedback{
+		height: 50px;
+		width: 50%;
+		margin-top: 40px;
+	}
+	.about{
+		height: 50px;
+		width: 50%;
+		margin-top: 40px;
+	}
+	
+}
+
+@media(max-width:656px){
+	.navbar{
+		height: 200px;
+		width: 100%;
+		background-color: yellow;
+	}
+	.home{
+		height: 50px;
+		width: 25%;
+	}
+	.contact{
+		height: 50px;
+		width: 25%;
+	}
+	.gallery{
+		height: 50px;
+		width: 25%;
+	}
+	.services{
+		height: 50px;
+		width: 25%;
+	}
+	.info{
+		height: 50px;
+		width: 25%;
+		margin-top: 30px;
+	}
+	.clients{
+		height: 50px;
+		width: 25%;
+		margin-top: 30px;
+	}
+	.feedback{
+		height: 50px;
+		width: 25%;
+		margin-top: 30px;
+	}
+	.about{
+		height: 50px;
+		width: 25%;
+		margin-top: 30px;
+	}
+
+}

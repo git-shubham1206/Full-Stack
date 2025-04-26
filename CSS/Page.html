@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<!-- saved from url=(0074)file:///C:/Users/gopal/OneDrive/Desktop/login%20page/Sign%20up%20Page.html -->
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up Page</title>
+    <style>
+        /* General body styles */
+        
+        body {
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(to right, #6a11cb, #2575fc);
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        /* Container to center the form */
+        
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            height: 100%;
+        }
+        /* Styling the form container */
+        
+        .form-container {
+            background-color: #fff;
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            width: 350px;
+            text-align: center;
+            transition: all 0.3s ease-in-out;
+        }
+        /* Add hover effect to form container */
+        
+        .form-container:hover {
+            transform: scale(1.05);
+        }
+        /* Heading styles */
+        
+        h2 {
+            color: #333;
+            margin-bottom: 20px;
+            font-size: 24px;
+            font-weight: bold;
+        }
+        /* Input fields styling */
+        
+        .input-group {
+            margin-bottom: 20px;
+            text-align: left;
+        }
+        
+        .input-group label {
+            font-size: 14px;
+            color: #666;
+            font-weight: bold;
+        }
+        
+        .input-group input {
+            width: 100%;
+            padding: 12px;
+            margin-top: 5px;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            font-size: 14px;
+            transition: border 0.3s ease;
+        }
+        
+        .input-group input:focus {
+            border-color: #2575fc;
+            outline: none;
+        }
+        /* Button styling */
+        
+        button {
+            background-color: #2575fc;
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 30px;
+            cursor: pointer;
+            width: 100%;
+            font-size: 16px;
+            font-weight: bold;
+            transition: background-color 0.3s ease, transform 0.2s ease-in-out;
+        }
+        
+        button:hover {
+            background-color: #6a11cb;
+            transform: translateY(-3px);
+        }
+        
+        button:active {
+            transform: translateY(1px);
+        }
+        /* Subtle animation for the form */
+        
+        @keyframes formAnimation {
+            0% {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            100% {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        
+        .form-container {
+            animation: formAnimation 1s ease-in-out;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="form-container">
+            <h2>Create an Account</h2>
+            <form action="file:///C:/Users/gopal/OneDrive/Desktop/login%20page/Sign%20up%20Page.html#">
+                <div class="input-group">
+                    <label for="username">Username</label>
+                    <input type="text" id="username" name="username" placeholder="Enter your username" required="">
+                </div>
+
+                <div class="input-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email" required="">
+                </div>
+
+                <div class="input-group">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" placeholder="Enter your password" required="">
+                </div>
+
+                <div class="input-group">
+                    <label for="confirm-password">Confirm Password</label>
+                    <input type="password" id="confirm-password" name="confirm-password" placeholder="Confirm your password" required="">
+                </div>
+
+                <button type="submit">Sign Up</button>
+            </form>
+        </div>
+    </div>
+
+
+</body>
+
+</html>

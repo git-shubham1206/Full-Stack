@@ -1,0 +1,339 @@
+/*body{
+	background-image: url(sea.jpg);
+	background-repeat: no-repeat;
+	background-size:100%;
+}
+.navbar{
+	height: 35px;
+	width: 100%;
+	
+	margin-top: 35px;
+}
+.logo{
+	height: 35px;
+	width: 50%;
+	display: flex;
+	align-items:center;
+	float: left;
+}
+.bar{
+	height: 35px;
+	width: 50%;
+	float: left;
+	font-weight: bolder;
+	font-size: 13px;
+}
+.middle{
+	height: 200px;
+	width: 105%;
+	text-align: center;
+	margin-top: 180px;
+	margin-left: 200px;
+	font-weight: bolder;
+}
+pre{
+	font-style: italic;
+  }
+
+h1{
+	word-spacing: 10px;
+	color: navy;
+	font-size: 35px;
+}
+h3{
+	word-spacing: 5px;
+	font-size: 20px;
+	color: indigo;
+}
+
+/*This code is of news portal */
+
+h1 {
+    margin-left: 35px;
+}
+
+.static_img {
+    margin-left: 60px;
+}
+
+h2 {
+    margin-left: 20px;
+}
+
+audio {
+    width: 200%;
+    margin-top: 35px;
+}
+
+iframe {
+    width: 90%;
+    margin-left: 11px;
+}
+
+video {
+    height: 135px;
+    width: 100%;
+    float: right;
+}
+
+.orange {
+    height: 135px;
+    width: 100%;
+    background-color: darkorange;
+    text-align: center;
+    align-content: center;
+    color: white;
+    float: left;
+}
+
+.brown {
+    height: 35px;
+    width: 100%;
+    background-color: brown;
+    float: left;
+    color: white;
+    align-content: center;
+    font-size: 15px;
+}
+
+.blue {
+    height: 40px;
+    width: 100%;
+    background-color: turquoise;
+    float: left;
+    color: white;
+}
+
+.purple {
+    height: 40px;
+    width: 100%;
+    background-color: purple;
+    float: left;
+    color: white;
+}
+
+.story {
+    height: 1435px;
+    width: 50%;
+    background-color: whitesmoke;
+    margin-top: 35px;
+    float: left;
+}
+
+.lorem {
+    height: 300px;
+    width: 50%;
+    float: right;
+}
+
+.image {
+    height: 300px;
+    width: 50%;
+    float: left;
+}
+
+.right {
+    height: 1435px;
+    width: 50%;
+    background-color: beige;
+    float: left;
+    margin-top: 35px;
+}
+
+.audio {
+    height: 500px;
+    width: 50%;
+}
+
+.table {
+    height: 400px;
+    width: 100%;
+    background-color: white;
+    float: left;
+}
+
+.trans {
+    height: 200px;
+    width: 100%;
+    background-color: yellow;
+    float: left;
+    margin-top: 25px;
+}
+
+.image1 {
+    height: 100px;
+    width: 10%;
+    margin-left: 20px;
+    position: relative;
+    top: 0px;
+    animation-name: new;
+    animation-duration: 1s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+
+.image2 {
+    height: 100px;
+    width: 10%;
+    margin-left: 35px;
+    position: relative;
+    bottom: 50px;
+    animation-name: new2;
+    animation-duration: 1s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+
+.image3 {
+    height: 100px;
+    width: 10%;
+    margin-left: 35px;
+    position: relative;
+    top: 0px;
+    animation-name: new;
+    animation-duration: 1s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+
+.image4 {
+    height: 100px;
+    width: 10%;
+    margin-left: 35px;
+    position: relative;
+    bottom: 50px;
+    animation-name: new2;
+    animation-duration: 1s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+
+.image5 {
+    height: 100px;
+    width: 10%;
+    margin-left: 35px;
+    position: relative;
+    top: 0px;
+    animation-name: new;
+    animation-duration: 1s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+
+.image6 {
+    height: 100px;
+    width: 10%;
+    margin-left: 35px;
+    position: relative;
+    bottom: 50px;
+    animation-name: new2;
+    animation-duration: 1s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+
+.image7 {
+    height: 100px;
+    width: 10%;
+    margin-left: 35px;
+    position: relative;
+    top: 0px;
+    animation-name: new;
+    animation-duration: 1s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+
+.image8 {
+    height: 100px;
+    width: 10%;
+    margin-left: 35px;
+    position: relative;
+    bottom: 50px;
+    animation-name: new2;
+    animation-duration: 1s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+
+.foot {
+    height: 50px;
+    width: 100%;
+    background-color: gray;
+    float: left;
+    text-align: center;
+    color: white;
+    font-size: 17px;
+}
+
+@keyframes new {
+    0% {
+        top: 5px;
+    }
+    10% {
+        top: 10px;
+    }
+    20% {
+        top: 20px;
+    }
+    30% {
+        top: 30px;
+    }
+    40% {
+        top: 40px;
+    }
+    50% {
+        top: 50px;
+    }
+    60% {
+        top: 60px;
+    }
+    70% {
+        top: 70px;
+    }
+    80% {
+        top: 80px;
+    }
+    90% {
+        top: 90px;
+    }
+    100% {
+        top: 97px;
+    }
+}
+
+@keyframes new2 {
+    0% {
+        bottom: -97px;
+    }
+    10% {
+        bottom: -90px;
+    }
+    20% {
+        bottom: -80px;
+    }
+    30% {
+        bottom: -70px;
+    }
+    40% {
+        bottom: -60px;
+    }
+    50% {
+        bottom: -50px;
+    }
+    60% {
+        bottom: -40px;
+    }
+    70% {
+        bottom: -30px;
+    }
+    80% {
+        bottom: -20px;
+    }
+    90% {
+        bottom: -10px;
+    }
+    100% {
+        bottom: 0px;
+    }
+}

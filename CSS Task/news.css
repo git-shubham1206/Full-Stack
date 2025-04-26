@@ -1,0 +1,144 @@
+.youtube{
+	height: 350px;
+	width: 338px;
+	float: left;
+}
+.map{
+	height: 500px;
+	width: 500px;
+	float: left;
+}
+.certificate{
+	height: 500px;
+	width: 500px;
+	float: left;
+}
+.yout{
+	height: 250px;
+	width: 176px;
+	float: left;
+}
+audio{
+	margin-top: 80px;
+}
+li{
+	margin-top: 70px;
+}
+.lokmat{
+	height: 700px;
+	width: 338px;
+	float: left;
+}
+
+.blue{
+	height: 90px;
+	width: 100%;
+	background-color: blue;
+	float: left;
+}
+.all{
+	height: 35px;
+    width: 15%;
+    background-color: yellow;
+    margin-left: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    float: left;
+    text-align: center;
+    align-content: center;
+    font-weight: 800;
+}
+.vertical{
+	height:2400px;
+	width: 150px;
+	background-color: blue;
+	float: left;
+}
+.all2{
+	height: 35px;
+	width: 120px;
+	background-color: yellow;
+	margin-top: 70px;
+	margin-left: 10px;
+	border-radius: 10px;
+	text-align: center;
+	align-content: center;
+	font-weight: 800;
+}
+.marq{
+	height: 50px;
+	width: 1353px;
+	background-color: black;
+	float: left;
+	color: whitesmoke;
+}
+.yt{
+	height: 700px;
+	width: 676px;
+	background-color: beige;
+	float: left;
+
+}
+.red{
+	height: 700px;
+	width: 338px;
+	background-color: red;
+	float: left;
+}
+.four{
+	height: 500px;
+	width: 353px;
+	background-color: whitesmoke;
+	float: left;
+}
+.list1{
+	height: 500px;
+	width: 300px;
+	background-color: yellow;
+	float: left;
+}
+.pattern{
+	height: 500px;
+	width: 380px;
+	float: left;
+}
+.list2{
+	height: 500px;
+	width: 292px;
+	background-color: yellow;
+	float: left;
+}
+.white{
+	height: 250px;
+	width: 1353px;
+	background-color: beige;
+	float: left;
+}
+
+.image1{
+	height: 100px;
+	width: 200px;
+	margin-left: 50px;
+	position: relative;
+	top: 0px;
+	animation-name: new;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+}
+
+@keyframes new{
+	100%{
+		top: 150px;
+	}
+}
+.cricket{
+	height: 400px;
+	width: 1353px;
+	background-color: yellow;
+	float: left;
+}
+.msd{
+	height: 395px;
+	width: 270.5px;
+	float: left;
+}

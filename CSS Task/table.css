@@ -1,0 +1,33 @@
+input{
+	height: 35px;
+	width: 170px;
+	margin-left: 10px;
+	border-radius: 5px;
+}
+td{
+	height: 50px;
+	width: 14%;
+	align-content: center;
+   	padding: 5px;
+   	text-align: center;
+}
+.remove{
+	width: 130px;
+	color: white;
+	background-color:rgb(230, 69, 80,1.0);
+	align-content: center;
+	margin-left: 30px;
+}
+table{
+	border: 2px solid white;
+	border-collapse: collapse;
+}
+.row{
+	background-color:grey;
+	color: white;
+}
+.but{
+	background-color:rgb(21, 138, 130);
+	color: white;
+	float: left;
+}

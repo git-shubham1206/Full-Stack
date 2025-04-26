@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Feedback Form</title>
+</head>
+<body>
+    <h1>My feedback form</h1>
+    <form action="" method="">
+        <ul >
+            <li><label>Name:</label>
+            <input type="text" name="name"></li>
+        
+            <li><label>Email:</label>
+            <input type="email" name="email"></li>     
+            <li><label >Password:</label>
+            <input type="password" name="password"></li><br>
+        </ul>
+        <ul>
+            <li>Please check all the emotions that apply to you:</li>
+        
+        <ul type="circle">
+            <li><label for="angry">Angry</label>
+            <input type="checkbox" id="angry" name="emotion" value="angry"></li>
+            <li><label for="sad">Sad</label>
+            <input type="checkbox" id="sad" name="emotion" value="sad"></li>
+            <li><label for="happy">Happy</label>
+            <input type="checkbox" id="happy" name="emotion" value="happy"></li>
+            <li><label for="ambivalent">Ambivalent</label>
+            <input type="checkbox" id="ambivalent" name="emotion" value="ambivalent"></li>
+        </ul>
+        </ul>
+        <ul>
+            <li>How satisfied were you with our service?
+        <ul type="circle">
+            <li><label for="very-satisfied">Very satisfied</label>
+            <input type="radio" id="very-satisfied" name="satisfaction" value="very-satisfied"></li>
+            <li><label for="satisfied">Satisfied</label>
+            <input type="radio" id="satisfied" name="satisfaction" value="satisfied"></li>
+            <li><label for="neutral">Didn't care</label>
+            <input type="radio" id="neutral" name="satisfaction" value="neutral"></li>
+            <li><label for="dissatisfied">Dissatisfied</label>
+            <input type="radio" id="dissatisfied" name="satisfaction" value="dissatisfied"></li>
+            <li><label for="very-dissatisfied">Very dissatisfied</label>
+            <input type="radio" id="very-dissatisfied" name="satisfaction" value="very-dissatisfied"></li>
+        </ul>
+        </ul>
+        <ul>
+            <li>Further comments:
+            <textarea id="comments" name="comments" rows="4" cols="50"></textarea></li><br>        
+            <li>Bio photo:
+            <input type="file" id="bio-photo" name="bio-photo"></li>
+        
+            <li>Location visited:
+            <select id="location" name="location">
+                <option>Select location</option>
+                <option>Location 1</option>
+                <option>Location 2</option>
+                <option>Location 3</option>
+            </select></li>
+        
+       <li><p>
+            <button type="submit">Submit</button>
+        </p></li>
+        </ul>
+    </form>
+</body>
+</html>

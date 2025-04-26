@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form Tag</title>
+</head>
+<body>
+	<fieldset>
+		<legend>Information</legend>
+<form action="#" method="get">
+	<label>Enter Name:-</label>
+	<input type="text" name="fullname" placeholder="Enter Full Name" required>
+	<br><br>
+
+	<label>Enter Mobile No.:-</label>
+	<input type="number" name="number" required><br><br>
+
+	<label>Enter Email-ID:-</label>
+	<input type="email" name="email"><br><br>
+
+	<label>Gender:-</label>
+	Male<input type="radio" name="gender" value="male"> &nbsp; &nbsp &nbsp;Female<input type="radio" name="gender" value="Female"><br><br>
+
+	<label>City:-</label>
+	<input type="text" name="city" list="city">
+	<datalist id="city">
+		<option>Nashik</option>
+		<option>Mumbai</option>
+		<option>Pune</option>
+		<option>Other</option>
+	</datalist><br><br>
+
+	<label>Select The Range</label>
+	<input type="range" name="range" min="1" max="10"><br><br>
+
+	<label>Select Week</label>
+	<input type="week" name="week"><br><br>
+
+	<label>Select Month</label>
+	<input type="month" name="month"><br><br>
+
+	<label>Select Date & Time</label>
+	<input type="datetime-local" name="dateandtime"><br><br>
+
+	<label>Search the field</label>
+	<input type="Search" name="Search"><br><br>
+
+	<label>Hide the text</label>
+	<input type="hidden" name="hidden" value="12345"><br><br>
+
+	<label>Address:-</label>
+	<textarea rows="3" cols="20" name="Address">Nashik</textarea><br><br>
+
+	<label>Button</label>
+	<input type="button" value="Click Me" onclick="alert('You Clicked Button.')"><br><br>
+
+	<label>Button Submit</label>
+	<button type="submit">Submit form</button><br><br>
+
+	<input type="submit" name="submit"><br><br>
+</form>
+</fieldset>
+</body>
+</html>
